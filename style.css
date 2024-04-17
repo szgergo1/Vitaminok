@@ -1,22 +1,26 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
+    background-color: #f6d103;
 }
 
 table {
-    width: 100%;
-    border-collapse: collapse;
+    border: 4px solid red; /* Set table border to red and thicker */
 }
 
 th, td {
-    border: 1px solid #ddd;
+    border: 4px solid red;
+    color: rgb(7, 10, 196);
     padding: 8px;
-    text-align: left;
+    text-align: left;   
 }
 
-th {
-    background-color: #f2f2f2;
+thead{
+    border: 4px solid red;
+    background-color: rgb(255, 119, 0);
+    color: red;
 }
+
 
 /* Custom styles */
 #teto {
