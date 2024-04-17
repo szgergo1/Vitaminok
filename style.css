@@ -1,10 +1,42 @@
-#teto{
-    text-decoration: underline;
-    text-align: center;
-    color: red;
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
 }
 
-#teto2{
-    width: 200px;
-    height: 200px;
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Custom styles */
+#teto {
+    position: relative;
+}
+
+#teto2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+}
+
+#teto2 img {
+    width: 150px; /* Adjust the width as needed */
+    height: auto;
+}   
+
+h1{
+    color: red;
+    text-decoration: underline;
+    text-align: center;
 }
