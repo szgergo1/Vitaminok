@@ -34,10 +34,10 @@ thead{
     margin: 10px;
 }
 
-#teto2 img {
-    width: 150px; /* Adjust the width as needed */
-    height: auto;
-}   
+#kep {
+    width: 150px;
+    height: 150px;
+}
 
 h1{
     color: red;
